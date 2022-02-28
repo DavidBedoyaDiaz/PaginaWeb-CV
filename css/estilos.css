@@ -1,0 +1,467 @@
+body {
+  background: url(../img/fondo_cv.jpg);
+  background-size: cover;
+}
+
+.rectangulo {
+  position: absolute;
+  width: 1067px;
+  height: 760px;
+  left: 130px;
+  top: 30px;
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 40px;
+}
+
+.foto {
+  background: url(../img/foto\ cv.jpg);
+  position: absolute;
+  width: 315px;
+  height: 290px;
+  left: 130px;
+  top: 30px;
+  border: 1px solid #000000; 
+  border-radius: 40px 0px 0px 0px;
+}
+
+.contacto {
+  position: absolute;
+  width: 315px;
+  height: 470px;
+  left: 130px;
+  top: 320px;
+  background: #a8ceea;
+  border: 1px solid #000000;
+  border-radius: 0px 0px 0px 40px;
+}
+
+.linea {
+  position: absolute;
+  width: 751px;
+  height: 0px;
+  left: 444px;
+  top: 150px;
+  border: 2px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.43);
+}
+
+.nombre {
+  position: absolute;
+  width: 380px;
+  height: 63px;
+  left: 650px;
+  top: 25px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000748;
+}
+
+.carrera {
+  position: absolute;
+  width: 384px;
+  height: 35px;
+  left: 770px;
+  top: 90px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contactoTitulo {
+  position: absolute;
+  width: 190px;
+  height: 97px;
+  left: 200px;
+  top: 310px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000235;
+}
+
+.objetivo {
+  position: absolute;
+  width: 283px;
+  height: 38px;
+  left: 480px;
+  top: 158px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.descObj {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 200px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.experiencia {
+  position: absolute;
+  width: 207px;
+  height: 38px;
+  left: 480px;
+  top: 265px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.desExp {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 310px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.educacion {
+  position: absolute;
+  width: 207px;
+  height: 38px;
+  left: 480px;
+  top: 410px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.ing {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 455px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: #000000;
+}
+
+.fecha {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 475px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.cursos1 {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: #000000;
+}
+
+.cursos2 {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 698px;
+  top: 500px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.conocimientos1 {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 468px;
+  top: 525px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: #000000;
+}
+
+.conocimientos2 {
+  position: absolute;
+  width: 658px;
+  height: 96px;
+  left: 793px;
+  top: 525px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.habilidades {
+  position: absolute;
+  width: 207px;
+  height: 38px;
+  left: 480px;
+  top: 560px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.habilidades1 {
+  position: absolute;
+  width: 278px;
+  height: 149px;
+  left: 447px;
+  top: 608px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.idiomas {
+  position: absolute;
+  width: 87px;
+  height: 28px;
+  left: 854px;
+  top: 560px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.idiomas1 {
+  position: absolute;
+  width: 278px;
+  height: 149px;
+  left: 822px;
+  top: 608px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.63);
+}
+
+.ubicacion {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 400px;
+  background: url(../img/IconoUbicacion.jpg);
+  border-radius: 30px;
+}
+
+.ubicacion1 {
+  position: absolute;
+  width: 203px;
+  height: 27px;
+  left: 195px;
+  top: 390px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.correo {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 465px;
+  background: url(../img/IconoCorreo.jpg);
+  border-radius: 30px;
+}
+
+.correo1 {
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  left: 195px;
+  top: 475px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.pagina {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 530px;
+  background: url(../img/IconoPaginaWeb.jpg);
+  border-radius: 30px;
+}
+
+.pagina1 {
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  left: 195px;
+  top: 520px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.github {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 595px;
+  background: url(../img/IconoGitHub.jpg);
+  border-radius: 30px;
+}
+
+.github1 {
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  left: 195px;
+  top: 600px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.celular{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 660px;
+  background: url(../img/IconoCelular.jpg);
+  border-radius: 30px;
+}
+
+.celular1{
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  left: 195px;
+  top: 650px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.linkdin{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 140px;
+  top: 725px;
+  background: url(../img/IconoLinkdin.jpg);
+  border-radius: 30px;
+}
+
+.linkdin1{
+  position: absolute;
+  width: 233px;
+  height: 29px;
+  left: 195px;
+  top: 726px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #000748;
+  text-decoration: underline;
+}
+
+a:active{
+  color:#fd0808;
+  text-decoration: underline;
+}
